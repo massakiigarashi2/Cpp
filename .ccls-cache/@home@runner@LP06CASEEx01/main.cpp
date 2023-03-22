@@ -1,4 +1,4 @@
-/* Uma das principais utilidades do comando switch…case sempre foi  avaliar escolhas feitas pelo usuário através de menus. Elabore um programa para exibir um menu onde o usuário possa escolher uma das seguintes funções para efetuar um cálculo: raiz quadrada, exponencial e módulo. Veja um exemplo de como deve ficar o visual do programa */
+//Solução:
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -19,6 +19,7 @@ cin >> x;
 }
 cout << endl;
 switch (op){
+//CONTINUAÇÃO
 case 1:
 if (x>=0)
 {   y = sqrt(x);
